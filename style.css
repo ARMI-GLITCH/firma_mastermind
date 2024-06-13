@@ -6,6 +6,7 @@
 }
 
 .div_firma {
+  background-color: rgba(0, 14, 141, 0.5);;
   border: 3px solid rgb(1, 11, 102);
   border-radius: 5px;
   box-shadow: 0px 0px 30px rgb(1, 11, 102);
@@ -15,6 +16,37 @@
   font-size: 17px;
   padding: 10px;
   border-radius: 10px;
+}
+
+.div_sobre_mi {
+  background-color: rgba(255, 4, 4, 0.603);
+  opacity: 1;
+  border: 3px solid rgb(190, 2, 2);
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(190, 2, 2);
+  margin: 10px;
+  width: 30%;
+  height: 100%;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sobre_mi{
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(172, 0, 0);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(172, 0, 0);
+  margin: 10px;
+  width: 50%;
+  font-size: 25px;
+}
+
+.contenido_sobre_mi {
+  color: white;
+  margin: 10px;
+  font-size: 20px;
 }
 
 .mi_nombre {
@@ -40,29 +72,47 @@
 }
 
 .youtube {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(255, 0, 0);
   color: red;
-  display: inline;
-  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 0, 0);
+  padding: 5px;
+  display: inline-block;
 }
 
 .instagram {
-  color: pink;
-  display: inline;
-  padding: 10px;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(255, 0, 212);
+  color: rgb(255, 91, 118);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 0, 212);
+  padding: 5px;
+  display: inline-block;
 }
 
 .facebook {
-  color: blue;
-  display: inline;
-  padding: 10px;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 195, 255);
+  color: rgb(0, 217, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(0, 195, 255);
+  padding: 5px;
+  display: inline-block;
 }
 
 .github {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(156, 156, 156);
   color: gray;
-  display: inline;
-  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(156, 156, 156);
+  padding: 5px;
+  display: inline-block;
 }
 
+.contenido_sobre_mi,
+.sobre_mi,
 .mi_nombre,
 .mi_profesion {
   font-family: 'Pixelify Sans', sans-serif;
