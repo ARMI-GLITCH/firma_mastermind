@@ -30,6 +30,7 @@
   font-size: 17px;
   padding: 10px;
   border-radius: 10px;
+  display: inline-block;
 }
 
 .sobre_mi{
@@ -69,6 +70,50 @@
   margin: 10px;
   width: 45%;
   font-size: 23px;
+}
+
+.mis_redes_sociales {
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(172, 154, 0);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(172, 154, 0);
+  margin: 10px;
+  width: 25%;
+  font-size: 15px;
+}
+
+.div_contactos {
+  background-color: rgba(255, 4, 242, 0.603);
+  color: white;
+  opacity: 1;
+  border: 3px solid rgb(255, 4, 242);
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(255, 4, 242);
+  margin: 10px;
+  width: 30%;
+  height: 100%;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.mi_rostro {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.contactame {
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(255, 4, 242);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 4, 242);
+  margin: 10px;
+  width: 60%;
+  font-size: 25px;
 }
 
 .youtube {
@@ -111,10 +156,76 @@
   display: inline-block;
 }
 
+.whatsapp {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(21, 255, 0);
+  color: rgb(0, 255, 21);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(24, 255, 3);
+  padding: 5px;
+  display: inline-block;
+}
+
+.gmail {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  padding: 5px;
+  display: inline-block;
+}
+
+.correo {
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(247, 247, 247);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  margin: 10px;
+  width: 60%;
+  font-size: 20px;
+}
+
+.mi_correo {
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  margin: 10px;
+  width: 70%;
+  font-size: 20px;
+}
+
+.numero {
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(21, 255, 0);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(21, 255, 0);
+  margin: 10px;
+  width: 60%;
+  font-size: 20px;
+}
+
+.mi_numero {
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(21, 255, 0);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(21, 255, 0);
+  margin: 10px;
+  width: 50%;
+  font-size: 20px;
+}
+
+.div_contactos,
+.mis_redes_sociales,
 .contenido_sobre_mi,
 .sobre_mi,
 .mi_nombre,
-.mi_profesion {
+.mi_profesion,h3 {
   font-family: 'Pixelify Sans', sans-serif;
 }
 
